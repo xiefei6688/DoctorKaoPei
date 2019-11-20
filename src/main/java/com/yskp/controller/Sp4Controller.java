@@ -17,7 +17,7 @@ import com.yskp.entities.User;
 
  
 /**
- *  
+ *  整合framework模板
  * @author xgf
  *
  */
