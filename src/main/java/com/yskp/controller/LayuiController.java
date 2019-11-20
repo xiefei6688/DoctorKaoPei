@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.yskp.entities.User;
 
 /**
- *  模板整合Bootstrap
+ *  整合layui
  * @author xgf
- * https://www.bootcss.com/
+ *https://www.layui.com/
  */
 @Controller
-@RequestMapping("/bootstrapView")
-public class BootstrapViewController {
+@RequestMapping("/layui")
+public class LayuiController {
 	@RequestMapping(value="/show" ,method=RequestMethod.GET)
 	public String m4(ModelMap mm){
 		List<User> list = new ArrayList<User>();
@@ -30,6 +30,6 @@ public class BootstrapViewController {
 		user1.setUserName("lisi");
 		list.add(user1);
 		mm.addAttribute("userList", list);
-		return "bootstrapView";
+		return "layuiShow";
 	}
 }
