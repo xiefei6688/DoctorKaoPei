@@ -16,7 +16,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.yskp.entities.User;
 
  
- 
+/**
+ *  
+ * @author xgf
+ *
+ */
 @Controller
 @RequestMapping("/sp4")
 public class Sp4Controller {
